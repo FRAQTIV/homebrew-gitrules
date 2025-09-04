@@ -1,8 +1,8 @@
 class GitrulesMcp < Formula
   desc "Assistant-agnostic MCP server exposing git rules & workflow tools"
   homepage "https://github.com/FRAQTIV/fraqtiv-gitrules-MCP"
-  url "https://github.com/FRAQTIV/fraqtiv-gitrules-MCP/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  url "https://github.com/FRAQTIV/gitrules-mcp-server/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "37ba1ddd0b38ba65576773144d42a628ffab89baf930bf22d66591e1c743b986"
   license "MIT"
 
   depends_on "node"
