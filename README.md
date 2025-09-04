@@ -11,7 +11,7 @@ This repository provides Homebrew formulas for installing FRAQTIV's git workflow
 First, add the tap to your Homebrew installation:
 
 ```bash
-brew tap fraqtiv/gitrules https://github.com/fraqtiv/homebrew-gitrules
+brew tap fraqtiv/gitrules https://github.com/FRAQTIV/homebrew-gitrules
 ```
 
 Then install the available packages:
