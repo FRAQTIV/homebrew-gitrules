@@ -11,6 +11,7 @@ class GitrulesMcp < Formula
     system "npm", "install"
     system "npm", "run", "build"
     libexec.install Dir["*"]
+    chmod "+x", libexec/"dist/index.js"
     (bin/"mcp-git-rules").write_env_script libexec/"dist/index.js", NODE_PATH: "#{libexec}/node_modules"
   end
 
