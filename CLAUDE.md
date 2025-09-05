@@ -11,7 +11,7 @@ This is a Homebrew tap repository for `gitrules-mcp`, providing a Homebrew formu
 ### Release Management
 - **Update formula for new version**: `./scripts/update-formula.sh v<version>` - Updates Formula/gitrules-mcp.rb with new version URL and SHA256 hash
 - **Audit formula**: `brew audit --strict gitrules-mcp` - Validates formula compliance with Homebrew standards
-- **First-time audit**: `brew audit --new-formula --strict Formula/gitrules-mcp.rb` - Use for initial formula submission
+- **First-time audit**: `brew audit --new-formula --strict fraqtiv/gitrules/gitrules-mcp` - Use for initial formula submission
 
 ### Manual SHA256 Calculation
 ```bash

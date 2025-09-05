@@ -12,9 +12,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Add Tap
+        run: brew tap fraqtiv/gitrules ${{ github.workspace }}
       - name: Brew Audit
-        run: brew audit --strict --online ./Formula/gitrules-mcp.rb || true
+        run: brew audit --strict --online fraqtiv/gitrules/gitrules-mcp || true
       - name: Install Formula
-        run: brew install --build-from-source ./Formula/gitrules-mcp.rb
+        run: brew install --build-from-source fraqtiv/gitrules/gitrules-mcp
       - name: Test Formula
-        run: brew test gitrules-mcp -v
+        run: brew test fraqtiv/gitrules/gitrules-mcp -v
